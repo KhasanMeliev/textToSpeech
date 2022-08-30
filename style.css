@@ -35,8 +35,6 @@ h1 {
   width: 85%;
   gap: 4px;
 }
-.texts-p {
-}
 
 textarea {
   height: 100px;
@@ -54,8 +52,7 @@ textarea {
   gap: 4px;
 }
 
-.voice-p {
-}
+
 select {
   height: 40px;
   border-radius: 4px;

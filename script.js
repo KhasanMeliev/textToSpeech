@@ -1,5 +1,4 @@
 const textarea = document.getElementById("text");
-
 let voicelist = document.getElementById("voice");
 let speechbtn = document.getElementById("submit");
 
