@@ -1,4 +1,4 @@
-const textarea = document.getElementById("text");
+const textarea = document.getElementById("text"); 
 let voicelist = document.getElementById("voice");
 let speechbtn = document.getElementById("submit");
 
@@ -27,6 +27,7 @@ function textToSpeech(text) {
 
 speechbtn.addEventListener("click", (e) => {
   e.preventDefault();
+
   if (textarea.value !== "") {
     if (!synth.speaking) {
       textToSpeech(textarea.value);
@@ -41,6 +42,7 @@ speechbtn.addEventListener("click", (e) => {
         isSpeaking = true;
         speechbtn.innerHTML = "Resume Speech";
       }
+      
       setInterval(() => {
         if (!synth.speaking && !isSpeaking) {
           isSpeaking = true;
